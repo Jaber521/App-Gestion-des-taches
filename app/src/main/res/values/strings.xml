@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">KAYSU SUSHI</string>
+
+    //barre de navigation
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_menu_item">Menu</string>
+    <string name="bottom_user_item">Mon Compte</string>
+
+    <!--home_page-->
+    <string name="home_page_title">En Cours </string>
+    <string name="section_home_page">Tâches Terminées</string>
+    <!--custom_product-->
+    <string name="home_page_product_name">nom produit</string>
+    <string name="home_page_product_description">description produit</string>
+    <!--page_menu-->
+    <string name="menu_page_title">Historique</string>
+
+    <!--page_compte-->
+    <string name="add_page_title">Mon compte</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="login">login</string>
+    <string name="description_popup">description_popup</string>
+    <string name="description_popup_soutitre">description_popup_soutitre</string>
+
+    <!--page_add-->
+    <string-array name="add_tache_spinner">
+        <item>Pièces : 1</item>
+        <item>Pièces : 2</item>
+        <item>Pièces : 3</item>
+        <item>Pièces : 4</item>
+        <item>Pièces : 5</item>
+        <item>Pièces : 6</item>
+        <item>Pièces : 7</item>
+        <item>Pièces : 8</item>
+        <item>Pièces : 9</item>
+        <item>Pièces : 10</item>
+        <item>Pièces : 11</item>
+    </string-array>
+    
+</resources>

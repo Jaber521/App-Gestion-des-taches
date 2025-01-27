@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "587147810981",
+    "firebase_url": "https://kaysu-sushi-default-rtdb.firebaseio.com",
+    "project_id": "kaysu-sushi",
+    "storage_bucket": "kaysu-sushi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587147810981:android:0c0f0e9c865bf567e7154c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587147810981-4tlcuev68p0u3hsef4l088a2re6ghpa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLs8VObxW5lTBJHrs3qSfeSXV0_bhz5j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587147810981-4tlcuev68p0u3hsef4l088a2re6ghpa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

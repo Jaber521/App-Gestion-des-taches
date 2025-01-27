@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+
+    <solid android:color="@color/orange" /> <!-- Couleur de fond du bouton (remplacez par la couleur souhaitée) -->
+    <corners android:radius="70dp" /> <!-- Rayon des coins (augmentez ou diminuez cette valeur pour ajuster l'arrondi) -->
+</shape>
+

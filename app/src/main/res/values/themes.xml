@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+       <style name="Theme.MyApplication" parent="Theme.AppCompat.Light.NoActionBar">
+              <!-- Changer la couleur principale (couleur des boutons, etc.) -->
+              <item name="colorPrimary">@color/orange</item>
+              <!-- Changer la couleur sombre de la barre de notification (facultatif) -->
+              <item name="colorPrimaryDark">@color/black</item>
+              <!-- Changer la couleur d'accentuation (facultatif) -->
+              <item name="colorAccent">@color/darkgreen</item>
+              <!--style add-->
+              <item name="android:spinnerItemStyle">@style/DefaultTextStyle</item>
+              <item name="android:spinnerDropDownItemStyle">@style/DefaultTextStyle</item>
+       </style>
+
+    <!--cree composant titre par defaut-->
+       <style name="DefaultTextStyle">
+              <item name="android:textColor">@color/orange</item>
+              <item name="android:textSize">18sp</item>
+              <item name="android:fontFamily">@font/police_kanit</item>
+              <!-- Autres attributs du style, si nécessaire -->
+       </style>
+
+       <!-- cree composant sous titre par default -->
+       <style name="SubtitleTextStyle" parent="DefaultTextStyle">
+              <item name="android:textColor">@color/white</item>
+       </style>
+
+       <!-- cree composant  titre par default -->
+       <style name="TitleTextstyle" parent="SubtitleTextStyle">
+              <item name="android:textSize">24sp</item>
+       </style>
+
+       <!-- cree un style  pour bottom navigation style -->
+       <style name="BottomNavigationStyle" parent="Widget.Design.BottomNavigationView">
+           <item name="android:textSize">18sp</item>
+              <item name="fontFamily">@font/police_kanit</item>
+       </style>
+
+       <!-- modifier la barre de navigation  -->
+       <style name="BottomNavigationTheme" parent="Widget.Design.BottomNavigationView">
+       <item name="android:textSize">18sp</item>
+              <item name="fontFamily">@font/police_kanit</item>
+       </style>
+</resources>
